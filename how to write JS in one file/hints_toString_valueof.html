@@ -1,0 +1,18 @@
+<script>
+  let user = {
+    name: "John",
+    money: 1000,
+
+    toString() {
+    return `{name: "${this.name}"}`;
+  },
+     valueOf(){
+      return this.money;
+    }
+  };
+  // conversions demo:
+  alert(user); // hint: string -> {name: "John"}
+  alert(+user); // hint: number -> 1000
+  alert(user + 500); // hint: default -> 1500
+
+</script>
