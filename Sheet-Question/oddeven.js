@@ -1,5 +1,4 @@
-<html>
-  <script>
+
             function oddeven(num){
         if(num % 2 == 0){
             return "even";
@@ -9,5 +8,4 @@
         }
     }
     console.log(oddeven(hey bro));
-  </script>
-</html>
+
