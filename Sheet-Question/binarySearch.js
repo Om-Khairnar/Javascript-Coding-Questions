@@ -16,3 +16,7 @@ function binarySearch(arr, target) {
 
   return -1; // Not found
 }
+
+const nums = [1, 3, 5, 7, 9, 11, 13];
+console.log(binarySearch(nums, 7));  // Output: 3
+console.log(binarySearch(nums, 4));  // Output: -1
