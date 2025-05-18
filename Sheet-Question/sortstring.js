@@ -2,6 +2,6 @@ function sortstring(arr){
     return arr.sort((a, b)=> a.length - b.length);
 }
 
-console.log
+console.log(sortstring(["apple", "banana", "cherry", "date"]))
 
-// o/p-> [ 'date', 'apple', 'banana', 'cherry' ]
+//O/P->[ 'date', 'apple', 'banana', 'cherry' ]
